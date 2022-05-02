@@ -1,0 +1,505 @@
+*{margin: 0; padding: 0; font-family: "Roboto", sans-serif}
+a, ul{text-decoration: none; list-style: none; color: #EAEAEA;}
+.navigation{
+    display: flex; 
+    width: 100%;
+    justify-content: center; 
+    align-items: center; 
+    background-color: #424242;
+    padding: 20px 0px
+  
+}
+    .logo-section{display: flex; 
+        width:10%; 
+        justify-content: space-between; 
+        align-items: center;
+        padding-right: 40px;
+}
+    .logo{width: 100%; 
+        height: 100%; 
+}
+    .menu-section{width: 40%; }   
+        .menu{display: flex; justify-content: space-between;}
+    .more
+    {width: 42%; 
+    display: flex;
+    justify-content: flex-end;
+}
+.cardboard{
+    display: flex;
+    align-items: center;
+    background-image: url(../Images/Cardboard/hero-home.jpg);
+    height: 480px;
+}
+.cardboard p{
+    font-size: 30px; 
+    font-style: normal;
+    font-weight: 100;
+}
+.cardboard h1{
+    letter-spacing: 1px;
+    font-size: 50px;
+    padding-bottom: 10px;
+}
+
+.cardboard{
+    padding: 20px;
+}
+.immersive{
+    background-color: #EEEEEE;
+    line-height: 150px;
+    color: #525547;
+    font-size: 40px;
+    padding-left: 20px;
+    ;
+}
+.get-viewer-section{
+background-color: #FAFAFA;
+display: flex;
+}
+.get-viewer-image{
+    width: 50%;
+}
+.get-viewer-text{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    line-height: 0.7cm;
+}
+
+.find {
+    padding-top: 30px;
+}
+.find a{
+    color: #018293;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    
+}
+.got-cardboard{
+    background-image: url(../Images/Cardboard/got-cardboard.jpg);
+    height: 380px;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+
+}
+.got-cardboard p, .got-cardboard2 p{
+padding: 20px 0px;
+}
+.got-cardboard h1, .got-cardboard2 h1{
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+.get-app-link{
+    color: #018293;
+    font-weight: 600;
+}
+.playstore img{
+    width: 30px;
+    height: 30px;
+    padding-right: 10px;
+}
+.playstore{
+    display: flex;
+    align-items: center;
+}
+.got-cardboard2{
+    background-image: url(../Images/Cardboard/join-the-fold.jpg);
+    background-repeat: no-repeat;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 100px;
+
+}
+
+.privacy-policy{
+    text-decoration: underline;
+}
+.footer1-background{
+    background-color: #424242;
+}
+.footer1{
+    width: 80%;
+    display: flex;
+    margin: auto;
+    color: white;
+    background-color: #424242;
+    line-height: 1.2cm;
+    padding: 40px;
+}
+.footer1 p{padding-right: 40px;}
+.twitter-logo{
+padding-left: 40px;
+}
+.follow-section{
+    display: flex;
+    align-items: center;
+}
+.collect-email, select{
+    padding: 5px;
+    width: 50%;
+    background-color: #424242;
+    border-color: #424242;
+    border-bottom: white;
+    border-style: solid;
+    border-width: 1px;
+    color: #BEBEA4;
+}
+.signup{
+    background-color: #64CBDF;
+    padding: 15px;
+    border-radius: 2px;
+    border-style: none;
+    font-size: 15px;
+}
+
+
+.help{
+    width: 1px;
+    height: 1px;
+}
+.footer2{
+    display: flex;
+    height: 90px;
+    align-items: center;
+}
+.footer2-logo{
+    width: 10%;
+    height: 10%;
+    padding: 30px;
+}
+.footer2-1{
+    width: 80%;
+    display: flex  
+}
+.footer2-1 ul{
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    align-items: center;    
+}
+.footer2-2{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+.footer2-link{
+    padding-left: 30px;
+    color: rgb(51, 61, 70);
+}
+.select2{
+    padding: 5px;
+    width: 50%;
+    background-color: white;
+    border-color: #737373;
+    color: #BEBEA4;
+}
+.select1{  
+    color: white;
+    background-color: white;
+}
+.select1:hover{ }
+.collect-email{margin-bottom: 50px;
+}
+
+/* Apps Page Begins Here*/
+.cardboard-text{
+    width: 60%;
+    font-size: 23px;
+}
+.apps{
+    background-image: url(../Images/Apps/hero-apps.jpg);
+}
+.youtube{
+    width: 100%;
+    background-image: url(../Images/Apps/apps-youtube_2x.jpg);
+    height: 600px;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.youtube-text{
+    width: 53%;
+    color: white;
+    font-weight: 100;
+    letter-spacing: 1px;
+
+}
+.youtube-p{
+    width: 100%;
+    padding: 20px 0px;
+    line-height: 0.8cm;
+}
+.app-os{
+    background-image: url(../Images/Apps/apps-cdl_2x.jpg);
+    height: 500px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+}
+.ios{padding-left: 10px;}
+.near-footer{
+    width: 55%;
+    margin: 30px 40px;
+}
+.developers{
+    background-image:url(../Images/Developers/hero-developers.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.dev-site{
+    padding: 20px 0px;
+
+}
+.divided-secs{
+    display: flex; 
+    width: 95%; 
+   margin: 5px auto
+}
+.sec1, .sec2, .sec3, .sec4{
+    width: 25%; 
+    background-color: #F5F5F5;
+}
+.sec2, .sec3, .sec4{margin-left: 5px}
+.sec-image{width: 100%; padding: ;}
+.share-link-section{
+    display: flex; 
+    align-items: center;
+    padding: 15px;
+}
+.subs, .share-link-section{
+    width: 90%;
+    margin: auto;
+}
+.subs h1, .subs p{
+margin: 20px;
+}
+.subs a{
+    color: #006E90;
+}
+.subs p{
+    line-height: 0.6cm;
+}
+.manufacturers{
+    background-image: url(../Images/Manufacturers/hero-manufacturers.jpg);
+height: 550px;
+background-position: right;
+
+}
+.manufacturers-text{
+    width: 100%;
+    margin: auto;
+}
+.manufacture-icon-section{
+
+    margin: 10px 0px;
+}
+.headings{
+    font-size: 30px;
+    font-weight: 00;
+    line-height: 2cm;
+}
+.viewer-text{
+    padding: 30px;
+}
+
+.best-practices{
+    margin-bottom: 100px;
+    background-color: white;
+}
+.viewer-image{
+    background-image: url(../Images/Manufacturers/wrench-mask_2x.png);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    margin-bottom: 70px;
+}
+
+.get-cardboard{
+    background-image: url(../Images/Get_Cardboard/parallax-devices/viewer1.png), 
+    url(../Images/Get_Cardboard/parallax-devices/viewer2.png), 
+    url(../Images/Get_Cardboard/parallax-devices/viewer3.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.select-menu{
+    display: flex;
+    align-items: center;
+    background-color:white;
+    width: 50%;
+    margin: 35px 30px;
+    justify-content: space-between;
+}
+.menu1{
+    background-color: #FAFAFA;
+    color: black;
+    border-style: none;
+    width: 16%;
+}
+.menu2{
+    background-color: #FAFAFA;
+    color: black;
+    border-style: none;
+    width: 26%;
+}
+.faqs{
+    background-color: #FAFAFA;
+    width: 95%;
+    margin: auto;
+    padding-top: 100px;
+}
+
+.faqs h5{
+    font-weight: 800;
+    padding: 15px 0px;
+}
+..faqs p{
+}
+
+
+
+/* PRODUCT LIST SECTION. DO NOT TOUCH, I REPEAT, DO NOT TOUCH*/
+.try-flex{
+    width: 97%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 2px auto;
+    background-color: #FAFAFA;
+
+}
+
+.try{
+  flex-basis: 415px;
+    height: 530px;
+    max-width: 425px;
+    background-color: #F1F1F1;
+}
+
+.one, .two, .three, .four, .five, .six, .seven, .eight, .nine, .ten, .eleven, .twelve{
+    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../Images/Get_Cardboard/vusionv3_2x.png);
+
+}
+.sub-section{
+    display: flex;
+    background-color:#FFFF;
+    height: 80px;
+    align-items: center;
+    gap: 10px;
+    padding-left: 30px;
+    margin-top: 367px;
+
+}
+
+.sub-section a{
+    color: #018293;
+    font-size: 17px;
+    vertical-align: middle;}
+.share-plus{
+    width: 20px;
+    height: 20px;
+}
+.plus{
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+}
+.vusion{
+padding: 15px;
+line-height: 0.7cm;
+background-color: transparent;
+}
+.two{
+    background-image: url(../Images/Get_Cardboard/maxbox_2x.png);
+}
+.three{
+    background-image: url(../Images/Get_Cardboard/pop-3.png);
+}
+.four{
+    background-image: url(../Images/Get_Cardboard/knox-v2-closed.png);
+}
+.five{
+    background-image: url(../Images/Get_Cardboard/cardboard-v2_2x.jpg);
+}
+.six{
+    background-image: url(../Images/Get_Cardboard/uc.jpg);
+}
+.seven{
+    background-image: url(../Images/Get_Cardboard/dscvr.jpg);
+}
+.eight{
+    background-image: url(../Images/Get_Cardboard/boxglass-wood_2x.png);
+}
+.nine{
+    background-image: url(../Images/Get_Cardboard/dodocase_p2_2x.jpg);
+}
+.ten{
+    background-image: url(../Images/Get_Cardboard/grab-vr.png);
+}
+.eleven{
+    background-image: url(../Images/Get_Cardboard/homidomini_2x.jpg);
+}
+.twelve{
+    background-image: url(../Images/Get_Cardboard/smartvr.jpg);
+}
+
+
+.faq-link{
+    font-size: 12px;
+}
+.build-it{
+    background-image: url(../Images/Get_Cardboard/buildit-cardboard-parts.jpg);
+height: 700px;
+display: flex;
+justify-content: flex-start;
+align-items: flex-start;
+width: 95%;
+margin: auto;
+
+}
+.build-it-text{
+    color: #424242;
+    width: 95%;
+    margin: 100px auto;
+}
+.download-instruction{
+    margin-right: 60px;
+}
+
+.make-it-yours{
+    text-align: center;
+    line-height: 0.8cm;
+    margin: 100px auto;
+
+}
+.slideshow{
+    display: flex;
+    width: 100%;
+    gap: 2px;
+    margin-bottom: 400px;
+}
+.slideshow-image{
+    display: flex;
+    width: 100%;
+    gap: 2px;
+}
+.get-text{
+   line-height: 1cm;
+}
+.text2{
+    margin-top: 25px;
+}
